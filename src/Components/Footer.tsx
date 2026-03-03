@@ -6,7 +6,11 @@ const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-
+    {
+      icon: <FaGithub />,
+      url: "https://github.com/gayatrichaudhary10/", // replace with your GitHub
+      label: "GitHub",
+    },
     {
       icon: <FaLinkedin />,
       url: "https://www.linkedin.com/in/gayatri-chaudhary-917576237/",
